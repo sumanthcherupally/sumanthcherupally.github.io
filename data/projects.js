@@ -5,21 +5,6 @@
 */
 window.PROJECTS = [
   {
-    id: "agentic-finance",
-    title: "Agentic AI for financial data",
-    tagline: "LLM agents that reason, use tools and check their work",
-    where: "Inscope · Founding AI Engineer · 2025–now",
-    image: "images/projects/agentic.svg",
-    summary: "Designing and deploying high-precision agentic AI systems that process financial data, where every answer has to be right.",
-    points: [
-      "Multi-step reasoning, tool use and workflow orchestration, built around evaluations that measure reliability.",
-      "Built and own the 0→1 AI infrastructure: Node.js and FastAPI backends, model integration and production APIs for scalable, low-latency AI.",
-      "Own mission-critical AI features end to end with the founding team, including the React front end."
-    ],
-    tags: ["LLMs", "AI agents", "Evaluations", "FastAPI", "Node.js", "React"],
-    links: []
-  },
-  {
     id: "transformer-lab",
     title: "Transformer architecture lab",
     tagline: "Comparing the building blocks of modern LLMs",
