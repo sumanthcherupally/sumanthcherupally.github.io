@@ -60,35 +60,6 @@ window.PROJECTS = [
     links: []
   },
   {
-    id: "gpu-tracer",
-    title: "GPU profiler for autonomous trucks",
-    tagline: "Finding the millisecond that matters",
-    where: "TuSimple · Onboard Runtime team · 2022",
-    image: "images/projects/gpu-trace.svg",
-    summary: "Designed and built a tracing tool that follows CUDA API calls and kernel runs on the truck's onboard GPU and pinpoints runtime spikes.",
-    points: [
-      "Cut the time engineers spent hunting performance problems by 75%.",
-      "Redesigned a database schema for storage and retrieval: 40% less storage and 50% faster queries."
-    ],
-    tags: ["C++", "CUDA", "Profiling", "Databases"],
-    links: []
-  },
-  {
-    id: "control-check",
-    title: "Control-Check",
-    tagline: "Validating 20M rows of financial data",
-    where: "Barclays · FC Tech Frameworks · 2023–25",
-    image: "images/projects/control-check.svg",
-    summary: "Built a data framework and a validation engine, Control-Check, that sits under Barclays' financial reporting and catches bad data before it reaches a report.",
-    points: [
-      "Handles more than 20 million rows of complex data per reporting cycle.",
-      "Cut downstream data issues by 50% per cycle with no added report generation time.",
-      "Also built and maintained Django and Streamlit web applications, with automated deployments through Chef and GitLab CI/CD."
-    ],
-    tags: ["Python", "Data engineering", "SQL", "Django", "CI/CD"],
-    links: []
-  },
-  {
     id: "matmul",
     title: "1,100× faster matrix multiply",
     tagline: "Squeezing every cycle out of GPUs and CPUs",
